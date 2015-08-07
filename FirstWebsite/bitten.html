@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<!--The following is code from Google Fonts-->
+
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Nosifer::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+
+<title>Zombie Suppression Teams</title>
+
+
+<meta charset="utf-8">
+
+<link href="javajam.css" rel="stylesheet">
+
+
+
+
+<script type="text/javascript">
+ 
+
+   <!-- <![CDATA[ 
+// Function for selection:
+
+
+// ]]> -->
+
+
+     
+     function selection()
+    {
+     
+        var selection=0;
+        selection = prompt("Enter the symptom displayed:");
+          
+           while((selection !=1) && (selection !=2) && (selection !=3) && (selection !=4) && (selection !=null))
+            {
+            selection = prompt("Invalid selection, Please try again");
+        //     selection = prompt("Enter the symptom displayed:");
+            } //endwhile
+
+
+           if (selection !=1 && selection !=2 && selection !=3 && selection !=4)
+           {
+            alert("Pour some soy sauce on yourself!");
+           }
+
+           else if (selection ==4 )
+           {
+            alert("Shoot him anyhow and explain that he was displaying symptoms.");
+           }
+
+           else 
+
+           {
+             
+           alert("Double tap to the head.  Don't go cheap on ammo...."); 
+        
+           }
+         
+            
+           //endif
+ 
+  
+    }
+
+// ]]> -->
+
+</script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<h1 id="header">Infection in your area?</h1>
+
+<div id="nav">
+
+<ul>
+
+ <li><a href="index.html">Home</a></li>
+
+  <li><a href="application.html">Join us</a></li>
+
+  <li><a href="squads.html">Existing Squads</a></li>
+
+  <li><a href="bitten.html">Someone Infected?</a></li>
+  <li><a href="links.html">Useful Links</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+<p>The first order of business is to stop the spread of the infection.  What are the symptoms and what is the cure?</p>
+
+<div>
+   <ol>
+     <li>Is the person eating or attempting to eat other humans?</li><br>
+     <li>Does this person have bite marks?</li><br>
+     <li>Does the person stink (there is a reason zombies are referred to as stenches), have a vacant look and moan a lot?</li><br>
+     <li>Is this your pain in the ass neighbor, who is not actually displaying any of the above mentioned symptoms?</li></br>
+   </ol>
+
+<!-- Selection button-->
+
+    
+        
+        <input type="button"  
+        value="Do any of these apply?"  
+        onClick="selection()"  />
+
+</div>
+<div id="footer">Copyright &copy; 2013 Zombie Apocalypse Association<br>
+<a href="mailto:nelsonec2@mymail.vcu.edu">Charles@Nelson.com</a></div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

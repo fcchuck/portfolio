@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Charles' Portfolio</title>
+        <!--Next line is a link to the Google font used-->
+        <link href='http://fonts.googleapis.com/css?family=Orbitron:400,500' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <!--next two lines link to the jquery file.  Added so as to use Modals-->
+        <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+       
+         <!--Navbar snippet imported from Bootstrap-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <!--container-fluid will make the navbar the size of the screen as opposed to container making it the size of the page-->
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--*************Brand is the button to return to the Portfolio homepage***If user will be sent to other pages.  If other pages are imbedded then it will only be a logo for decoratiove purposes-->
+
+                <!--<a class="navbar-brand" href="index.html">Brand</a>-->
+
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+
+            </div>
+            <br />
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <!--link to open default email to send me an email directly-->
+                    <li class="messageMe"><a href="mailto:fcchuck2@gmail.com" target="_blank">Email Charles</a></li>
+                    <!--<li><a href="#">Link</a></li>-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Information <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="images/Earl C Nelson Resume.htm" target="_blank">Resume</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Academic Experience</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Personal Pursuits</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--search code is commented out unless I decide to add seach parameters-->
+               <!--<form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>-->
+                <ul class="nav navbar-nav navbar-center">
+                    <!--<li><a href="#">Link</a></li>-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Online Presence <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.linkedin.com/pub/charles-nelson/27/512/9a1" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://www.facebook.com/charles.nelson.9404/about" target="_blank">Facebook</a></li>>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav><!--End of Navigation Bar -->
+	
+    
+    <div class="container">
+
+                <!--Following is the code for the logo-->
+                <div class="row">
+                   
+                    <div class="col-md-12 text-center text-uppercase">
+                        <h1 class="title-super text-thin">E. Charles Nelson</h1>
+                        <h3>Military Experience</h3>
+                    </div>
+                </div>
+
+                <hr ><!--attributes are in the css file-->
+            <br />
+            <div class="milText">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="VMIPicture" src="images/VMI2.jpg" alt="VMI cadets on paradeo">
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Four years in the VMI Corps of Cadets</h3>
+                        <p>The Virginia Military Institute takes pride in preparing citizen soldiers who will serve and lead our country in both the military and civilian world. </p>
+                        <p>All cadets participate in ROTC class and training with the opportunity to assume multiple leadership positions.</p>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 ">
+                        <h4>Lessons Learned: </h4>
+                        <ul>
+                            <li>TEAMWORK.  Working with others is the key to success.</li>
+                            <li>LEADERSHIP.  How to get things done leading a team.</li>
+                            <li>PERSEVERANCE.  If it was easy anyone could do it.</li>
+                            <li>ATTENTION TO DETAIL.  It is best to do it right.</li>
+                            <li>HONESTY.  Always the best course of action.</li>
+                            <li>TIME MANAGEMENT.  Prioritize the tasks.</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4 image-left ">
+                        <img class="VMILogo" src="images/VMI.jpg"  alt="VMI logos">
+                    </div>
+                </div>
+                <br />
+                <br />
+                <div class="row">
+                    
+                        <div class="col-md-4">
+                            <h3>U.S. Army Basic Training</h3>
+                            <p>Eight weeks of intense training at fort Knox, Kentucky.</p>
+                            <p>Learned the basics of military life, weapons use and maintenance.</p>
+                            <p>Promoted to squad leader, led and managed a squad of 12 soldiers.</p>
+                        </div>
+                        <div class ="col-md-4">
+                            <img class ="basicTng" src="images/basicTng.jpg" alt="Basic Training">
+                        </div>
+                    
+                    <div class="col-md-4">
+                        <h4>Lessons Learned:</h4>
+                            <ul>
+                                <li>Working with people from different backgrounds and experiences.</li>
+                                <li>Learned to understand the perspective of the poeple at the bottom of the ladder.</li>
+                                <li>Improved my ability to communicate with people from different backgrounds and educational experiences.</li>
+                            </ul>
+                    </div>
+                </div>
+                <br />
+                <br />
+
+                <div class="row">
+                    <div class ="col-md-8">
+                        <h3>Officer Training</h3>
+                        <p>Twelve weeks of training and testing in Officer Candidate School at Ft. Benning, Georgia.</p>
+                        <p>Six month training and testing in Armor Officer Basic at Ft. Knox, Kentucky</p>
+                    </div>
+                    <div class="col-md-4">
+                        <br />
+                        <h4>Lessons Learned:</h4>
+                        <ul>
+                            <li>MANAGEMENT -  </li>
+                            <li>LEADERSHIP -  </li>
+                            <li>TEAMWORK -  </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <br />
+                <br />
+
+                <div class="row">
+                    <div class ="col-md-6">
+                        <h3>Commissioned Officer, United States Army</h3>
+                        <p>Three years active duty, stationed in Germany assigned to the 2nd. Squadron of the 11th. Armored cavalry Regiment.</p>
+                        <p>Served as a tank platoon leader, leading 15 soldiers</p>
+                        <p>Successful deployment to Kuwait, supporting operations as part of the first gulf War.</p>
+                        <p>Served as assistant Supply Officer for the squadron.</p>
+
+                    </div>
+                    <div class="col-md-6">
+                        <br />
+                        <h4>Lessons Learned:</h4>
+                        <ul>
+                            <li>COMMUNICATION - be able to pass down information from the top as well as listen to information from those I led.</li>
+                            <li>HUMILITY - To be able to listen and learn from those with more experience even when they are in lower ranking positions.</li>
+                            <li>LEADERSHIP - Having been in the position of having to make life or death decisions, one must be able to earn the trust and respoect of those one leads.</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class ="col-md-4">
+                        <img class ="11ACRg" src="images/11ACR.jpg" alt="11th ACR patch">
+                    </div>
+                    <div class ="col-md-4">
+                        <img class ="tanks" src="images/armor.jpg" alt="Tanks">
+                    </div>
+                    <div class ="col-md-4">
+                        <img class ="SWAribbon" src="images/swacampaign.jpg" alt="Southwest Asia Service Campaign Ribbon">
+                    </div>
+                </div>
+
+    </div>
+
+
+	</body>
+
+</html>
